@@ -67,7 +67,7 @@ faturamento_mensal.head()
     ## 83547     0.0     0.0  85000.0  55000.0  150000.0  145000.0  155000.0  155000.0
 
 -   `dados_totais` contém toda a informação presente no arquivo
-    oringial, mas agora organizados de forma *tidy*, facilitando muito a
+    original, mas agora organizados de forma *tidy*, facilitando muito a
     análise dos dados depois.
 
 ``` python
@@ -246,9 +246,9 @@ dados_totais %>% ggplot(aes(x=preco)) +
 
 ### Modelo linear
 
-Para ter mais confiança nesses resultados, podemos montar ajustar um
-modelo linear a estes dados, para saber quais variáveis temporais têm
-mais influencia sobre os preços dos imóveis:
+Para ter mais confiança nesses resultados, podemos ajustar um modelo
+linear a estes dados, para saber quais variáveis temporais têm mais
+influência sobre os preços dos imóveis:
 
 ``` r
 #Removendo NAs e 0s
@@ -316,7 +316,7 @@ Algumas das conclusões que podemos tirar a partir desses dados:
 -   O **mês** influencia muito o valor da diária, a taxa de ocupação e
     consequentemente o faturamento.
 
--   Apesar de muito menor, o **dia da semana** também têm uma influencia
+-   Apesar de muito menor, o **dia da semana** também têm uma influência
     sobre esses valores.
 
 -   **Natal** e principalmente o **Ano novo** influenciam os preços das
